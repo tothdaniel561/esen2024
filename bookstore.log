@@ -1,0 +1,5 @@
+1713251673756:help
+1713252308375:create book --title Valami --author Valaki --publisher Kiado --price 500
+1713252351624:create book --author Valaki --title Valami --price 500 --publisher kiado
+1713252745186:help
+1713252883162:list books
