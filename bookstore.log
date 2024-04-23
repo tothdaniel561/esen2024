@@ -3,3 +3,23 @@
 1713252351624:create book --author Valaki --title Valami --price 500 --publisher kiado
 1713252745186:help
 1713252883162:list books
+1713853363806:help
+1713853369369:list books
+1713854240478:list book
+1713854242707:help
+1713854248645:list books
+1713854264738:delete book --id 5
+1713854269521:list books
+1713855105787:help
+1713855145810:Update book --id 1 --price 5000
+1713855148896:book list
+1713855153376:list books
+1713855216398:Update book --id 1 --author Tóth Dániel
+1713855220570:book list
+1713855224203:list books
+1713855260755:Update book --id 2 --author "Tóth Dániel"
+1713855264096:list books
+1713855300283:Update book --id 1 --author "Tóth Dániel" --title "A vasember" --price 500000000
+1713855302990:list books
+1713856700837:help
+1713857242201:list bookstores
