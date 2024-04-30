@@ -94,7 +94,7 @@ public class BookstoreService {
             }
             bookstore.getInventory().replace(book, entry + amount);
         } else {
-            if (amount < 0) {
+            if (amount < 1) {
                 bookstore.getInventory().put(book, amount);
             }
         }
