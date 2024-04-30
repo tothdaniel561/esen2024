@@ -3,6 +3,7 @@ package com.esen.bookstore.service;
 import com.esen.bookstore.model.Book;
 import com.esen.bookstore.repository.BookRepository;
 import lombok.RequiredArgsConstructor;
+import org.springframework.shell.standard.ShellMethod;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -50,5 +51,10 @@ public class BookService {
         }
 
         bookRepository.save(book);
+    }
+
+    @ShellMethod(key = "Find prices", value = "Find prices")
+    public void findPrices(Long id){
+        bookstoreService.findPrices(id);
     }
 }
